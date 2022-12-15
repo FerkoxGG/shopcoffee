@@ -96,14 +96,16 @@
         <button type="button" class="btn">
           <i class="fa-solid fa-shopping-bag"></i>
         </button>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
     </div>
   </nav>
   <section>
-    <div class="container">
+    <div class="container d-none d-sm-block">
       <div class="row">
         <div class="col-2">
           <ul class="list-group">
@@ -140,18 +142,21 @@
             </li>
           </ul>
         </div>
-        <div class="col pt-5 d-none d-sm-block">
+        <div class="col pt-5">
           <div class="container">
             <h1>
-              Tea & Turmeric
+              <strong>
+                Tea & Turmeric
+              </strong>
             </h1>
-            <div class="row">
+            <div class="row justify-content-between">
               <div class="card" style="width: 18rem;">
                 <div class="card-body">
-                  <img
-                    src="https://www.nescafe.com/mx/sites/default/files/styles/product_stage_690_690/public/2021-08/1000x1000_F.png?itok=Tiw_wZEL"
-                    class="card-img-top" alt="coffee1">
-                  <strong class="card-title">
+                  <button class="btn">
+                    <img
+                      src="https://www.nescafe.com/mx/sites/default/files/styles/product_stage_690_690/public/2021-08/1000x1000_F.png?itok=Tiw_wZEL"
+                      class="card-img-top" alt="coffee1">
+                  </button> <strong class="card-title">
                     Cafe Black 225 grs
                   </strong>
                   <p class="card-text">
@@ -161,11 +166,13 @@
               </div>
               <div class="card" style="width: 18rem;">
                 <div class="card-body">
-                  <img
-                    src="https://www.nescafe.com/mx/sites/default/files/styles/product_stage_690_690/public/2020-11/NESCAFE%CC%81-Decaf_T.png?itok=aszQ0usP"
-                    class="card-img-top" alt="coffee2">
+                  <button class="btn">
+                    <img
+                      src="https://www.nescafe.com/mx/sites/default/files/styles/product_stage_690_690/public/2020-11/NESCAFE%CC%81-Decaf_T.png?itok=aszQ0usP"
+                      class="card-img-top" alt="coffee1">
+                  </button>
                   <strong class="card-title">
-                    Cafe Decap 170 grs
+                    Cafe Decaf 170 grs
                   </strong>
                   <p class="card-text">
                     $20.00
@@ -174,8 +181,10 @@
               </div>
               <div class="card" style="width: 18rem;">
                 <div class="card-body">
-                  <img src="https://www.nescafe.com/mx/sites/default/files/2021-07/NESCAFE_CLASICO%2001.png"
-                    class="card-img-top" alt="coffee3">
+                  <button class="btn">
+                    <img src="https://www.nescafe.com/mx/sites/default/files/2021-07/NESCAFE_CLASICO%2001.png"
+                      class="card-img-top" alt="coffee3">
+                  </button>
                   <strong class="card-title">
                     Cafe Clásico 225 grs
                   </strong>
@@ -189,7 +198,164 @@
         </div>
       </div>
     </div>
+    <div class="container d-block d-sm-none">
+      <div class="row">
+        <div class="row-cols-1 row-cols-md-3 g-4">
+          <div class="container">
+            <h1>
+              <strong>
+                Tea & Turmeric
+              </strong>
+            </h1>
+            <div class="row">
+              <div class="card" style="width: 10rem;">
+                <div class="card-body">
+                  <button class="btn">
+                    <img
+                      src="https://www.nescafe.com/mx/sites/default/files/styles/product_stage_690_690/public/2021-08/1000x1000_F.png?itok=Tiw_wZEL"
+                      class="card-img-top" alt="coffee1">
+                  </button>
+                  <strong class="card-title">
+                    Cafe Black 225 grs
+                  </strong>
+                  <p class="card-text">
+                    $27.50
+                  </p>
+                </div>
+              </div>
+              <div class="card" style="width: 10rem;">
+                <div class="card-body">
+                  <button class="btn">
+                    <img
+                      src="https://www.nescafe.com/mx/sites/default/files/styles/product_stage_690_690/public/2020-11/NESCAFE%CC%81-Decaf_T.png?itok=aszQ0usP"
+                      class="card-img-top" alt="coffee1">
+                  </button>
+                  <strong class="card-title">
+                    Cafe Decaf 170 grs
+                  </strong>
+                  <p class="card-text">
+                    $20.00
+                  </p>
+                </div>
+              </div>
+              <div class="card" style="width: 10rem;">
+                <div class="card-body">
+                  <button class="btn">
+                    <img src="https://www.nescafe.com/mx/sites/default/files/2021-07/NESCAFE_CLASICO%2001.png"
+                      class="card-img-top" alt="coffee3">
+                  </button>
+                  <strong class="card-title">
+                    Cafe Clásico 225 grs
+                  </strong>
+                  <p class="card-text">
+                    $68.50
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <ul class="list-group">
+            <li class="list-group-item">SHOP</li>
+            <li class="list-group-item">
+              <button type="button" class="btn btn-default">
+                Coffee
+              </button>
+            </li>
+            <li class="list-group-item">
+              <button type="button" class="btn btn-default">
+                Tea & Turmeric
+              </button>
+            </li>
+            <li class="list-group-item">
+              <button type="button" class="btn btn-default">
+                Equipment
+              </button>
+            </li>
+            <li class="list-group-item">
+              <button type="button" class="btn btn-default">
+                Merchandise
+              </button>
+            </li>
+            <li class="list-group-item">
+              <button type="button" class="btn btn-default">
+                Subscribe
+              </button>
+            </li>
+            <li class="list-group-item">
+              <button type="button" class="btn btn-default">
+                Gifts
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </section>
+
+  <footer style="background-color: #118acb">
+    <div class="container text-white">
+      <div class="row justify-content-end">
+        <div class="col-sm-1 col-md-3">
+          <div class="pt-4">
+            CONNECT WITH US
+          </div>
+          <div>
+            <i class="fab fa-instagram px-1"></i>
+            <i class="fab fa-facebook-f px-1"></i>
+            <i class="fab fa-twitter px-1"></i>
+            <i class="fa-brands fa-linkedin-in px-1"></i>
+          </div>
+        </div>
+        <div class="col-sm-1 col-md-3 pt-4">
+          <strong>
+            Shop
+          </strong>
+          <div>Single Origin</div>
+          <div>Signature Coffees</div>
+          <div>Specialty Instant</div>
+          <div>Subscribe</div>
+          <div>Brew Gear</div>
+          <div>Merchandise</div>
+          <div>The Workshop</div>
+          <div>Cart</div>
+          <div>My Account</div>
+        </div>
+        <div class="col-sm-1 col-md-3 pt-4">
+          <strong>
+            LEARN
+          </strong>
+          <div>Whoresale</div>
+          <div>Locations</div>
+          <div>Contact</div>
+          <div>Blog</div>
+          <div>Frequently Asked Questions</div>
+          <div>Privacy Policy</div>
+          <div>Accessibility Statement</div>
+          <div>Download Our App</div>
+        </div>
+      </div>
+      <div class="row justify-content-between">
+        <div class="col-sm-1 col-md-3 pt-4">
+          <p>Copyright © 2020 <br /> All rights reserved</p>
+        </div>
+        <!-- introducir correo con boton de suscribir -->
+        <div class="col-sm-1 col-md-6 pt-4">
+          <div class="row">
+            <div class="col-md-9">
+            <input type="text" class="form-control text-blue" placeholder="sing up for our newsletter">
+            </div>
+            <div class="col-md-3">
+            <button type="button" class="btn btn-light text-primary">
+              Subscribe
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
 
