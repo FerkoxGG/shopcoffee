@@ -1,3 +1,7 @@
-.bgcyan{
-  background-color: #118acb, !important;
+body {
+  font-family: "CentraExtraBold",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol" !important;
+}
+input::placeholder {
+  color: white !important;
+  opacity: 1;
 }
